@@ -1,0 +1,26 @@
+/* Tablet */
+
+@media all and (max-width: 1000px) {
+    .intro h1 {
+      font-size:40px;
+    }
+    
+  }
+  
+  /* Smartphone */
+  @media all and (max-width: 670px) {
+    .intro h1 {
+        font-size:40px;
+        line-height:20px;
+      }
+      
+    .intro p {
+        font-size:14px;
+        line-height:20px;
+        padding-bottom:0px;
+      }
+    
+    .button {
+      width:70%;
+    }
+  }
